@@ -1,0 +1,3 @@
+#!/bin/sh
+
+docker push testcab/certbot-bind-tools

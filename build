@@ -1,0 +1,5 @@
+#!/bin/sh
+
+dirname=$(dirname "$0")
+
+docker build "$dirname" -t testcab/certbot-bind-tools
